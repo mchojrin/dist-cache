@@ -1,0 +1,18 @@
+{
+    "name": "muc/dist-cache",
+    "description": "A generic distributed caché system for web applications.",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Mauro Chojrin",
+            "email": "mchojrin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"Muc\\": "src/"}
+    },
+    "require": {
+        "phpunit/phpunit": "3.7.28",
+        "mockery/mockery": "0.8.0"
+    }
+}
